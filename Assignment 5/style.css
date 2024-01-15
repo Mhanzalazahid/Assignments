@@ -1,0 +1,24 @@
+@font-face {
+  font-family: ab;
+  src: url(./Salsa-Regular.ttf);
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: ab;
+    text-transform: capitalize;
+
+    
+}
+.A{
+  background-color: rgb(2, 120, 120);
+}
+.ab{
+  padding: 8px;
+  margin: 5px;
+  color: aliceblue;
+  background-color: black;
+}
+a:visited{
+  color: white;
+}
