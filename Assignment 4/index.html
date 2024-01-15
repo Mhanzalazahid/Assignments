@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <center><h1>Saylani Mass IT Traning</h1></center>
+    <center><h3>Classes schedule(lab-1)</h3></center>
+    
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        th{
+            background: #666c66;
+        }
+        td.blue{
+            background:blue;
+        }
+        td.namaz{
+            background:rgb(22, 185, 130) ;
+        }
+        td.yellow{
+            background: rgb(105, 0, 253);
+        }
+        td.pink{
+            background: rgb(209, 103, 120);
+        }
+        #free{
+            background: rgb(56, 201, 56);
+        }
+        td.purple{
+            background: purple;
+        }
+        td.A{
+            background: rgb(213, 111, 8);
+        }
+        td.green{
+            background: green;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <center>
+        <table  cellpadding="3px" cellspacing="4px">
+            <tr>
+            <th>Day and <br>Time<br/></th>
+            <th>8am-<br>9am<br/></th>
+            <th>9am-<br>10am<br/></th>
+            <th>10am-<br>11am<br/></th>
+            <th>11am-<br>12noon<br/></th>
+            <th>12pm-<br>1pm<br/></th>
+            <th>1pm-<br>2pm<br/></th>
+            <th>2pm-<br>3pm<br/></th>
+            <th>3pm-<br>4pm<br/></th>
+            <th>4pm-<br>5pm<br/></th>
+            <th>5pm-<br>6pm<br/></th>
+            <th>6pm-<br>7pm<br/></th>
+            <th>7pm-<br>8pm<br/></th>
+            <th>8pm-<br>9pm<br/></th>
+            <th>9pm-<br>10pm<br/></th>
+            <th>10pm-<br>11pm<br/></th>
+        </tr>
+        <tr >
+            <th>Monday</th>
+            <td colspan="3" class="blue"> 9am-11am<br>Web and Mobile App<br/></td>
+            <td colspan="2" class="blue">11am-1pm<br>Web and Mobile App<br/></td>
+            <td colspan="2" class="namaz">Namaz Break</td>
+            <td colspan="2" class="purple">2pm-4pm<br>Vedio Editing<br/>Section A</td>
+            <td colspan="2" class="yellow">4pm-6pm<br>Graphic Designing<br/>Section A</td>
+            <td colspan="3" class="green">7pm-9pm<br>AI anh Chatbot<br/>Section A</td>
+            <td class="blue">9pm-11pm<br>Web and Mobile App</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="3" class="yellow">9am-11am<br>Graphic Designing<br/>Section A</td>
+            <td colspan="2" class="yellow">11am-1pm<br>Graphic Designing<br/>Section B</td>
+            <td colspan="2" class="namaz"> Namaz Break</td>
+            <td colspan="2" class="A">2pm-4pm<br>CCO<br/>Section A</td>
+            <td colspan="2" class="yellow">4pm-6pm<br>Graphic Designing<br/>Section B</td>
+            <td colspan="3" class="blue">7pm-9pm<br>Web and App<br/>Section A</td>
+            <td class="pink"></td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="3" class="blue">9am-11am<br>Web and App<br/></td>
+            <td colspan="2" class="blue">11am-1pm<br>Web and App<br/></td>
+            <td colspan="2" class="namaz">Namaz Break</td>
+            <td colspan="2" class="pink"></td>
+            <td colspan="2" class="yellow">4pm-6pm<br>Graphic Designing<br/>Section C</td>
+            <td colspan="3" class="green">7pm-9pm<br>Web and App<br/></td>
+            <td class="blue">9pm-11pm<br>Web and App<br/></td>
+        </tr>
+        <tr>
+            <th>Thuresday</th>
+            <td colspan="5" id="free"><center>Free Space</center></td>
+            <td colspan="2" class="namaz">Namaz Break</td>
+            <td colspan="2" class="purple">2pm-4pm<br>Vedio Editing<br/>Section A</td>
+            <td colspan="2" class="yellow">4pm-6pm<br>Graphic Designing<br/>Section A</td>
+            <td colspan="3" class="blue">7pm-9pm<br>Web and App</td>
+            <td class="pink"></td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td colspan="3" class="blue">9am-11am<br>Graphic Designing<br/>Section A</td>
+            <td colspan="2" class="blue">11am-1pm<br>Graphic Designing<br/></td>
+            <td colspan="2" class="namaz">Namaz Break</td>
+            <td colspan="2" class="A">2pm-4pm<br>CCO<br/>SEction C</td>
+            <td colspan="2" class="yellow">4pm-6pm<br>Graphic Designing<br/>Section B</td>
+            <td colspan="3" class="green">7pm-9pm<br>Web and App<br/></td>
+            <td class="blue">9pm-11pm<br>Web and App<br/></td>
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td colspan="3" class="yellow">9amm-11am<br>Graphic Designing<br/>Section A</td>
+            <td colspan="2" class="yellow">11am-1pm<br>Graphic Designing<br/>Setcion B</td>
+            <td colspan="2" class="namaz">Namaz Break</td>
+            <td colspan="2" class="pink"></td>
+            <td colspan="2" class="yellow">4pm-6pm<br>Graphic Designing</td>
+            <td colspan="3" class="blue">7pm-9pm<br>Web and App</td>
+            <td class="pink"></td>
+        </tr>
+        <tr>
+            <th>Sunday</th>
+            <td class="pink"></td>
+            <td colspan="3" class="blue">9am-12pm<br>Web and Mobile App</td>
+            <td class="pink"></td>
+            <td colspan="2" class="namaz">Namaz Break</td>
+            <td colspan="3" class="purple">2pm-5pm<br>Vedio Editing<br/>Section B</td>
+            <td class="pink"></td>
+            <td colspan="3" class="green">6am-10am<br>AI and Chatbot<br/>section B</td>
+            <td class="pink"></td>
+
+        </tr>
+        </table>
+    </center>
+
+    </form>
+    
+</body>
+</html>
