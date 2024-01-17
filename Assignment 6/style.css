@@ -1,0 +1,47 @@
+nav{
+    display: inline-block;
+}
+.ab {
+    /* text-align: right; */
+    padding: 6px;
+    margin: 5px;
+}
+.cd{
+    text-align: right;
+}
+#btn1{
+    border-color: aliceblue;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 15px;
+}
+#btn2{
+    border-radius: 15px;
+    border-color: aliceblue;
+}
+.ul ul li{
+    display: inline;
+    padding: 5px;
+}
+/* .div2{
+    width: 50%;
+} */
+.p1{
+    font-size: 80px;
+    color: green;
+}
+.btn3{
+    color: aliceblue;
+    border-color: aliceblue;
+    background-color: green;
+    border-radius: 30px;
+}
+.div2{
+    display: inline-block;
+    margin: 40px;
+    height: 40px;
+}
+.img2{
+    margin: 20px;
+    padding: 20px 14px;
+}
