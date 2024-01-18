@@ -1,0 +1,58 @@
+  @font-face {
+    font-family: ab;
+    src: url(./RussoOne-Regular.ttf);
+  }
+body{
+  background-color: aliceblue;
+}
+span{
+    font-size: 80px;
+    /* margin: 5px; */
+    color: #3b5998;
+    font-family: ab;
+}
+.p2{
+ font-size: 20px;
+ margin:  250px;
+ align-items: center;
+ text-align: center;
+}
+fieldset{
+    height: 350px;
+    width: 200px;
+    border-radius: 5px;
+}
+input{
+    font-size: 20px;
+    margin: 20px;
+}
+.btn1{
+    padding: 12px 160px;
+    margin: 20px;
+    border: none;
+    text-align: center;
+    background-color: #3b5998;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: x-large;
+    border-radius: 5px;
+}
+.form{
+  display: inline-block;
+}
+.a{
+  margin: 0px 125px;
+}
+.btn2{
+  padding: 20px;
+  margin: 18px 85px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(26, 222, 65);
+  font-weight: bolder;
+  font-size: larger;
+  color: aliceblue;
+}
+.p3{
+  margin: 20px 50px;
+}
