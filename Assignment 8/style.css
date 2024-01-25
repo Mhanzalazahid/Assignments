@@ -1,0 +1,84 @@
+@font-face {
+    font-family: ab;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+body{
+    background-color: blue;
+}
+.ac{
+    display: inline-block;
+}
+h2{
+    display: inline;
+    margin: 30px;
+    font-family: ab;
+}
+#ab{
+    margin: 0px 0px 0px 450px;
+}
+.p1{
+    position: absolute;
+    right: 250px;
+    /* border: 2px solid black; */
+    height: 900px;
+}
+header{
+    color: white;
+}
+button{
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+h1{
+    margin: 5px;
+    font-family: ab;
+}
+button:hover{
+    border-bottom: 5px solid #0ef;
+    border-radius: 15px;
+}
+.d1{
+    width: 250px;
+    height: 220px;
+    margin-left: 5px;
+    border: 5px solid white;
+    background-color: white;
+}
+img{
+    width: 250px;
+    height: 200px;
+    /* border: 10px solid white; */
+}
+a{
+    /* border: 10px solid white; */
+    color: black;
+}
+:link{
+    text-decoration: none;
+    color: black;
+}
+:visited{
+    color: black;
+    text-decoration: none;
+}
+#d1{
+    display: inline-block;
+    margin: 35px;
+    
+}
+.d2{
+  border: 5px solid white;
+  background-color: white;
+  height: 220px;
+  width: 250px;
+  /* margin: 10px; */
+}
+.d3{
+    width: 250px;
+    height: 220px;
+    margin-left: 5px;
+    border: 5px solid white;
+    background-color: white;
+}
