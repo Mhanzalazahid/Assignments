@@ -1,0 +1,93 @@
+body{
+    color: rgb(18, 4, 4);
+}
+img{
+    height: 60px;
+    width: 160px;
+}
+.h1{
+    position: relative;
+    left: 550px;
+    top: 10px;
+    font-size: xx-large;
+}
+.main{
+    /* border: 2px solid black; */
+    background-image: linear-gradient(#353649, #f79fd9);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1510px;
+    
+}
+.par1{
+position: relative;
+top: 10px;
+left: 290px;
+font-size: larger;
+}
+._1{
+  height: 370px;
+  width: 300px;
+  border: 1px solid black;
+    /* position: absolute;
+    top: 270px; */
+    /* display: flex; */
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+    margin: 0px 50px;
+}
+/* .x{
+    position: fixed;
+    top: 10px;
+} */
+.par2{
+    position: relative;
+    /* top: 10px; */
+    left: 600px;
+    font-size: larger;
+}
+button{
+    margin-left: 90px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(242, 203, 152);
+    padding: 5px 10px;
+    margin-top: 15px;
+    color: rgb(94, 90, 90);
+}
+center{
+    margin: 15px;
+}
+._2{
+    height: 370px;
+    width: 300px;
+    border: 1px solid black;
+      /* position: absolute;
+      top: 270px;
+      right: 760px; */
+      background: linear-gradient(114.2deg, rgb(121, 194, 243) 22.6%, rgb(255, 180, 239) 67.7%);
+      margin: 0px 50px;
+
+
+}
+.div1{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    flex-flow: row;
+    
+    /* margin-left: 260px; */
+    /* padding: 50px; */
+    
+/* border: 5px solid black; */
+}
+._3{
+    height: 370px;
+    width: 300px;
+    border: 1px solid black;
+    
+      /* position: absolute;
+      top: 270px; */
+      /* display: flex; */
+      background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+      margin: 0px 50px;
+}
