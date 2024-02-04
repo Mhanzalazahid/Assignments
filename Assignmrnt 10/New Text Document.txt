@@ -1,0 +1,12 @@
+<script src="https://kit.fontawesome.com/aae8c43d14.js" crossorigin="anonymous"></script>
+home:
+<i class="fa-solid fa-house"></i>
+about
+<i class="fa-solid fa-info"></i>
+<i class="fa-solid fa-circle-info"></i>
+contect
+<i class="fa-solid fa-phone"></i>
+<i class="fa-regular fa-phone"></i>
+setting
+<i class="fa-solid fa-gear"></i>
+<i class="fa-sharp fa-solid fa-gear"></i>
